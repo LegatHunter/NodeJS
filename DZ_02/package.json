@@ -1,0 +1,20 @@
+{
+  "name": "npm_gb_nik",
+  "version": "1.0.0",
+  "description": "DZ_02, npm, gb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LegatHunter/NodeJS.git#main"
+  },
+  "author": "Nikita Prebyshevskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LegatHunter/NodeJS/issues"
+  },
+  "homepage": "https://github.com/LegatHunter/NodeJS/tree/main#readme"
+}
