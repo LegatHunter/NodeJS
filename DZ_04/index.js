@@ -11,9 +11,9 @@ let id = 0;
 app.use(express.json());
 
 const userScheme = joi.object({
-  firstName: joi.string().min(5).required(),
-  secondName: joi.string().min(5).required(),
-  age: joi.number().min(5).max(90).required(),
+  firstName: joi.string().min(2).required(),
+  secondName: joi.string().min(4).required(),
+  age: joi.number().min(7).max(90).required(),
   city: joi.string().min(2),
 });
 
